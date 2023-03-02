@@ -1,0 +1,77 @@
+/* Reset default browser styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Set body font and background color */
+body {
+  font-family: Arial, sans-serif;
+  color: bisque;
+  background-image: url('/Users/zander/Desktop/folder1/My-FIrst-Portfolio/assets/Images/maxresdefault.jpg');
+}
+
+/* Set header styles */
+header {
+  background-image: linear-gradient(rgb(117, 117, 213), rgb(55, 74, 90));
+  color: #fff;
+  padding: 20px;
+}
+
+header h1 {
+  font-size: 32px;
+  margin: 0;
+  border-width: 10px;
+  border-color: black;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav a {
+  color: #fff;
+  
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Set main content styles */
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+section h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+section ul {
+  list-style: none;
+}
+
+section li {
+  margin-bottom: 20px;
+}
+
+section a {
+color: #fff;
+}
+
